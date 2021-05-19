@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MapNavigation</string>
+    <string name="splash_text1">This app helps you to navigate by car from your current location to Montclair State University.</string>
+    <string name="splash_text2">On the next page, you will see a button ‘Drive to MSU’.</string>
+    <string name="splash_text3">On clicking it, you will be taken to Google Maps and navigation will start from your current location.</string>
+    <string name="home_text">Use this button to navigate to Montclair State University</string>
+    <string name="nav_text">Drive to MSU</string>
+</resources>

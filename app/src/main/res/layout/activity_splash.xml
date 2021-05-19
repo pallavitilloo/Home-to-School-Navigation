@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".SplashActivity"
+    android:background="@color/lilac">
+
+    <ImageView
+        android:id="@+id/imgDrive"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:src="@drawable/splash_screen_icon_foreground"
+        app:layout_constraintBottom_toTopOf="@id/tvHelpText1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/tvHelpText1"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/splash_text1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgDrive"
+        android:padding="30dp" />
+
+    <TextView
+        android:id="@+id/tvHelpText2"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="30dp"
+        android:textStyle="bold"
+        android:text="@string/splash_text2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvHelpText1" />
+
+    <TextView
+        android:id="@+id/tvHelpText3"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="30dp"
+        android:textStyle="bold"
+        android:text="@string/splash_text3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvHelpText2"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
